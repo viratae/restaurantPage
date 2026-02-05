@@ -5,9 +5,12 @@ import {
 import {
     loadMenu
 } from "./menu.js";
+import {
+    loadContact
+} from "./contact.js";
 // Loads the home page inititally 
-//loadHome();
-loadMenu();
+loadHome();
+
 console.log("I am connected!");
 const content = document.querySelector('#content');
 const homeButton = document.querySelector('#homeButton');
